@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="book_cover_template_availability_test" timestamp="2018-02-16T22:26:26" time="112.297" tests="5" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="8d4b740f7fdce96857c283a74aefb926"/>
+      <property name="suiteName" value="Book Cover Template Availability Test "/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\spec\BookCoverTemplateAvailabilityTest.js"/>
+    </properties>
+    <testcase classname="chrome.book_cover_template_availability_test" name="when_user_navigates_to_book_cover_page" time="63.326"/>
+    <testcase classname="chrome.book_cover_template_availability_test" name="and_user_chooses_a_page_to_open_at_random" time="0.445"/>
+    <testcase classname="chrome.book_cover_template_availability_test" name="and_user_opens_a_random_template" time="3.06"/>
+    <testcase classname="chrome.book_cover_template_availability_test" name="then_the_subcategory_should_be_displayed_successfully" time="0.335"/>
+    <testcase classname="chrome.book_cover_template_availability_test" name="and_user_should_be_redirected_to_homepage_when_clicking_use_this_template" time="43.537"/>
+  </testsuite>
+</testsuites>
